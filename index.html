@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Salary Calculator</title>
+		<link rel ="stylesheet" href="style.css" type="text/css">
+		<link rel="script" type="text/javascript" href="Salary_calculate.js">
+	</head>
+	<body class= "salary-calculator">
+
+		<div class = "section-above">
+			<h1>The Salary Calculator</h1>
+			<p class ="tag">A solution to calculate salary payments</p><br/>
+
+			<p class ="caption">EMPLOYEE DETAILS</p>
+		</div>
+
+		<div class= "section-below">
+			<form method = "get" action ="./">
+				<table>
+					<tr>
+						<th>
+							<label for = "level">LEVEL</label>
+						</th>
+						<td>
+							<select name = "level-options" id ="level-options">
+								<option value = "0">INTERN</option>
+								<option value = "1">ASSOCIATES</option>
+								<option value = "2">MANAGERS</option>
+								<option value = "3">EXECUTIVES</option>
+								<option value = "4">DIRECTOR</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<th>
+							<label for ="experience">EXPERIENCE</label>
+						</th>
+						<td>
+							<input type = "text" name = "year" id ="year" value="0"><br/>
+						</td>
+					</tr>
+				</table>
+
+				<script type="text/javascript">
+
+				</script>
+
+				<div class="wrapper"><input type = "button" value = "SUBMIT" name = "submit" id="submit" onclick="GetSalary();"></div>
+			</form>
+		</div>
+
+		<div id="display-result">
+
+		</div>
+
+	</body>
+<html>

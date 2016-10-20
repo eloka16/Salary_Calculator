@@ -1,0 +1,25 @@
+.salary-calculator {
+	background-color: #94bcfc;
+	float: right;
+	position: relative;
+	left: -50%; /* or right 50% */
+	text-align: left;
+}
+
+.caption{
+	text-align: center;
+	font-weight: bold;
+}
+.submit{
+	text-align: center;
+	position: absolute;
+    top: 50%;
+}
+.wrapper {
+    text-align: center;
+}
+.tag{
+	font-style: italic;
+	 text-align: center;
+	 position: absolute;
+}
